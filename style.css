@@ -4,4 +4,46 @@
     box-sizing: border-box;
 }
 
-section1,
+.section1, .section2, .section3, .section4 {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+
+}
+
+nav a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+nav li {
+    list-style-type: none;
+}
+
+.section1 {
+    background-image: url(images/high-angle-view-of-variety-of-succulent-plants-royalty-free-image-1584462052.jpeg);
+    
+}
+
+.section2 {
+    background-image: url(images/benefits-of-art-abstract.png);
+    background-attachment: fixed;
+    
+}
+
+.section3 {
+    background-image: url(images/pngtree-pixel-gradient-computer-abstract-circuit-board-pink-purple-graphic-seamless-mosaic-picture-image_1451923.jpeg);
+    
+}
+
+.section4 {
+    background-image: url(images/1_Ly2u1scBYqh63W88dG9t3g.jpeg);
+    background-attachment: fixed;
+}

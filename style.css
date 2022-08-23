@@ -13,18 +13,31 @@
 
 }
 
-nav a{
+nav {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+nav ul{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     
 
 }
 
 nav li {
     list-style-type: none;
+    margin: 20px;
+}
+
+nav a {
+    color: orange;
+    text-decoration: none;
 }
 
 .section1 {
@@ -47,3 +60,76 @@ nav li {
     background-image: url(images/1_Ly2u1scBYqh63W88dG9t3g.jpeg);
     background-attachment: fixed;
 }
+
+.header{
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 10%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.476);
+    width: 40%;
+    padding: 20px 0px 20px 0px;
+    font-size: 24px;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+
+.intro {
+    color: orange;
+    background-color: rgba(0, 0, 0, 0.476);
+    width: 40%;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top: 400px;
+    left: 30%;
+    border: 2px solid orange;
+    padding: 20px 0px 20px 0px;
+    border-radius: 5px;
+}
+
+.paragraph{
+    font-size: 22px;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#p1{
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 5%;
+}
+
+#p2{
+    background-color: rgb(76, 148, 148);
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    top: 150px;
+    left: 60%;
+    padding: 20px;
+    position: relative;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) 

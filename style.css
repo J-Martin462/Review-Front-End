@@ -46,7 +46,7 @@ nav a {
 }
 
 .section2 {
-    background-image: url(images/benefits-of-art-abstract.png);
+    background-image: url(images/153061.jpg);
     background-attachment: fixed;
     
 }
@@ -107,7 +107,7 @@ nav a {
     background-color: rgb(76, 148, 148);
     color: white;
     border: 2px solid rgb(255, 255, 255);
-    top: 150px;
+    top: 250px;
     left: 60%;
     padding: 20px;
     position: relative;
@@ -132,4 +132,23 @@ nav a {
 
 
 
-@media only screen and (max-width: 700px) 
+@media only screen and (max-width: 1300px) {
+    .header{
+        width: 80%;
+
+    }
+
+    #p1{
+        width: 80%;
+        background-color: rgba(255, 255, 255, 0.692);
+        border: 2px solid rgba(84, 210, 217, 0.642);
+        border-radius: 5px;
+        color: black;
+        left: 10%;
+    }
+
+    #p2{
+        width: 80%;
+        left: 10%;
+    }
+}

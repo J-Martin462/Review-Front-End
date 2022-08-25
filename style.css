@@ -52,8 +52,36 @@ nav a {
 }
 
 .section3 {
-    background-image: url(images/pngtree-pixel-gradient-computer-abstract-circuit-board-pink-purple-graphic-seamless-mosaic-picture-image_1451923.jpeg);
-    
+    background-image: url(images/5jpN4u.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section3 h1{
+    text-align: center;
+}
+
+.section3 p{
+    margin: 20px;
+    font-size: 20px;
+    color: rgb(2, 2, 2);
+}
+
+.section3 input{
+    height: 30px;
+    border-color: transparent;
+    color: rgb(23, 14, 14);
+}
+
+.section3 input:focus{
+    outline: 2px solid rgb(10, 2, 10);
+}
+
+.section3 input::placeholder{
+    text-align: center;
+    color: purple;
+    font-style: italic;
 }
 
 .section4 {

@@ -44,20 +44,29 @@
             <div class="part1">
                 <h1>Ramdom sentence</h1>
                 <p class="options">Enter a place: <input type="txt" id="place" placeholder="place"></p>
-                <p class="options">Enter a name: <input type="txt" id="name" placeholder="name"></p>
+                <p class="options">Enter a name: <input type="txt" id="person" placeholder="name"></p>
                 <p class="options">Enter a verb: <input type="txt" id="verb" placeholder="verb"></p>
-                <p class="options">Enter a adjective: <input type="txt" id="adjective" placeholder="adjective"></p>
+                <p class="options">Enter a adjective: <input type="txt" id="adj" placeholder="adjective"></p>
                 <p class="options">Enter a adverb: <input type="txt" id="adverb" placeholder="adverb"></p>
-                <button id="button">Click to find out the sentence</button>
+                <button onclick="getData()" id="button">Click to find out the sentence</button>
 
             </div>
             <h1 id="sentence">sentence</h1>
         </div>
 
         <div class="section4" id="sec4">
+            <div class="part2"> </div>
+            <h1>guess the word</h1>
+            <input type="text" id="letter">
+            <button id="submit">Click</button>
+            <h4>you have x chances</h4>
             
+            <div class="grid"> 
+                <h1 id="word">belligerent </h1>
+                <h4 id="hint">Hint: </h4>
+            </div>
         </div>
 
-        
+        <script src="app.js"></script>
     </body>
 </html>

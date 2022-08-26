@@ -87,6 +87,10 @@ nav a {
 .section4 {
     background-image: url(images/1_Ly2u1scBYqh63W88dG9t3g.jpeg);
     background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .header{

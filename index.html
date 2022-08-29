@@ -55,15 +55,16 @@
         </div>
 
         <div class="section4" id="sec4">
-            <div class="part2"> </div>
-            <h1>guess the word</h1>
-            <input type="text" id="letter">
-            <button id="submit">Click</button>
-            <h4>you have x chances</h4>
+            <div class="part2">
+                <h1>guess the word</h1>
+                <input type="text" id="letter">
+                <button onclick="enterLetter()"  id="submit">Click</button>
+                <h4>you have <span id="wrong"></span> chances left</h4>
             
-            <div class="grid"> 
-                <h1 id="word">belligerent </h1>
-                <h4 id="hint">Hint: </h4>
+                <div class="grid"> 
+                    <h1 id="word">Place Hold</h1>
+                    <h4 id="hint">Hint: </h4>
+                </div>
             </div>
         </div>
 

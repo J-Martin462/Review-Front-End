@@ -94,8 +94,8 @@ function enterLetter() {
     if (correct.length == emptySplitWord.length) {
         alert("THE EMD")
     } else if (counter > 1) {
-        counter -= 1;
-        document.getElementById("wrong").value = counter;
+        counter = counter - 1;
+        document.getElementById("wrong").innerHTML = counter;
     } else if (counter == 1) {
         alert("You Lost")
     }

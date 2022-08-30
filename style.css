@@ -93,6 +93,58 @@ nav a {
     flex-direction: column;
 }
 
+.section4 h1{
+    color: rgb(14, 96, 168);
+    position: relative;
+    top: -100px;
+}
+
+.section4 h4{
+    color: rgb(108, 12, 163);
+    position: relative;
+    top: 30px;
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+}
+
+#word{
+    font-size: 35px;
+
+}
+
+#hint{
+    position: relative;
+    top: -70px;
+    color: rgb(13, 210, 20);
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.section4 h4{
+    color: rgb(213, 9, 9);
+    font-size: 20px;
+
+}
+
+#letter{
+    position: relative;
+    top: -50px;
+    width: 100px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#letter:focus{
+    outline: 2px solid rgb(0, 200, 255)
+}
+
 .header{
     color: white;
     position: relative;

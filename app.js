@@ -92,7 +92,7 @@ function enterLetter() {
     }
 
     if (correct.length == emptySplitWord.length) {
-        alert("THE EMD")
+        alert("THE END")
     } else if (counter > 1) {
         counter = counter - 1;
         document.getElementById("wrong").innerHTML = counter;

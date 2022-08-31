@@ -93,6 +93,13 @@ nav a {
     flex-direction: column;
 }
 
+.part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .section4 h1{
     color: rgb(14, 96, 168);
     position: relative;
@@ -100,7 +107,7 @@ nav a {
 }
 
 .section4 h4{
-    color: rgb(108, 12, 163);
+    color: rgb(14, 96, 168);
     position: relative;
     top: 30px;
 }
@@ -122,13 +129,13 @@ nav a {
 #hint{
     position: relative;
     top: -70px;
-    color: rgb(13, 210, 20);
+    color: blue;
     font-size: 24px;
     font-weight: 300;
 }
 
 .section4 h4{
-    color: rgb(213, 9, 9);
+    color: blue;
     font-size: 20px;
 
 }
@@ -139,10 +146,17 @@ nav a {
     width: 100px;
     padding: 20px;
     font-size: 20px;
+    color: purple;
+    text-align: center;
 }
 
 #letter:focus{
-    outline: 2px solid rgb(0, 200, 255)
+    outline: 2px solid orange;
+}
+
+#submit{
+    position: relative;
+    top: -40px;
 }
 
 .header{
